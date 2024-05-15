@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
+.menu-perfil ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.menu-perfil li {
+    display: inline-block;
+}
+
+.menu-perfil li a {
+    padding: 15px;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    transition: 1s;
+
+}
+
+.menu-compra i{
+    font-size: 23px;
+}
+
+.menu-compra {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-compra li{
+    margin: 15px;
+}
+
+.menu a{
+    font-size: 25px;
+}
+
+
+.menu-perfil .minhaconta,
+.menu-perfil li a:hover 
+{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: 0.5;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: white;
+    width: 100%;
+}
+
+.menu-perfil img{
+    width: 100%;
+}
+
+#banner2{
+        background-image: url(../img/Group\ 7.png);
+        height: 171px;
+        /* height: 100%; */
+        background-repeat: no-repeat;
+        background-position: center;
+    
+}
+
+
+
+.box {
+    height: 465px;
+    width: 500px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 30px 40px;
+    gap: 50px;
+
+}
+
+.box h1{
+
+    font-size: 36px;
+    text-align: center;
+}
+
+.box .input-box{
+    height:50px;
+    width: 100%;
+    margin: 50px 0;
+    
+}
+
+.input-box input {
+    width: 80%;
+    height: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+    
+    
+}
+
+.pedido{
+    display: flex;
+    position: absolute;
+    top: 79%;
+    right: 38%;
+    
+}
+
+.input-box input::placeholder{
+    color: #000000;
+}
+
+.input-box i {
+    position: absolute;
+    right: 38%;
+    transform: translateY(30px);
+    font-size: 20px;
+    
+}
+
+.box .registrar {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.registrar p a{
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.registrar p a:hover {
+    text-decoration: underline;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    
+    gap: 10px;
+    
+}
+
+.imagens img{
+    height: 50px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.box .btn{
+    width: 100%;
+    height:45px;
+    background: #003cff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.6);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.corpo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+
